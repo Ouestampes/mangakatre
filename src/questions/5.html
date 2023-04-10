@@ -1,0 +1,124 @@
+<?php $id_modal = basename(__FILE__, '.html'); ?>
+<div class="modal fade" id="question5" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered  modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Quizz très précis mais c'est un QCM !</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="text-center mb-1">
+                <img src="cards/5.png" height="300" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="accordion" id="accordionPanel<?php echo $id_modal; ?>">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                      data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne">
+                      Facile
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" data-bs-parent="#accordionPanel<?php echo $id_modal; ?>"  class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <p>Quelle est la date exacte de diffusion du premier épisode "La Mélancolie d'Haruhi Suzumiya" ? </p>
+                      <p><button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1 me-1">A- 03/04/1986</button><button
+                          type="button" class="btn btn-outline-primary btn-right me-1 mb-1">B- 02/04/2006</button></p>
+                      <br/>
+                      <button type="button" class="btn btn-dark btn-show">Voir la réponse</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                      data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo">
+                      Moyenne - *bruit de démarrage de console très agréable*
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" data-bs-parent="#accordionPanel<?php echo $id_modal; ?>"  class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <p>Comment s'appelait l'OS de la première Playstation ? </p>
+                      <p>
+                        <button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1">A- MariOS parce qu'à la base le projet
+                          était en coopération avec Nintendo</button>
+                        <button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1">B- Morita-Ibuka en hommage aux
+                          fondateurs de Sony</button>
+                        <button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1">C- Orbis en hommage à .... un pharaon
+                          qui n'existe pas ? </button>
+                        <button type="button" class="btn btn-outline-primary btn-right me-1 mb-1">D- Y en avait pas parce que c'est bien
+                          plus simple comme ça.</button>
+                      </p>
+                      <button type="button" class="btn btn-dark btn-show">Voir la réponse</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                      data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseThree">
+                      Difficile - C'est un peu un truc de bourgeois
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" data-bs-parent="#accordionPanel<?php echo $id_modal; ?>"  class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      <p>Quel est le nom complet de Constanze dans Little Witch Academia ?</p>
+                      <p>
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col"><button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1">A- Constanze Amalie von Brauncshbank-Albrechtsberger</button></div>
+                            <div class="col"><button type="button" class="btn btn-outline-primary btn-right me-1 mb-1">B- Constanze Amalie von Braunschbank-Albrechtsberger</button></div>
+                          </div>
+                          <div class="row">
+                            <div class="col"><button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1">C- Constanze Amalie von Braunschbank-Albrechstberger</button></div>
+                            <div class="col"><button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1">D- Constanze Amelia von Braunschbank-Albrechtsberger</button></div>
+                          </div>
+                          <div class="row">
+                            <div class="col"><button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1">E- Constanze Amalie von Braunshbank-Albreschtsbarger</button></div>
+                            <div class="col"><button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1">F- Constanze Amalie von Branuschbank-Albrechstberger </button></div>
+                          </div>
+                          <div class="row mb-2">
+                            <div class="col"><button type="button" class="btn btn-outline-primary btn-right me-1 mb-1">G- Constanze Amalie von Braunschbank-Albrechtsberger</button></div>
+                            <div class="col"><button type="button" class="btn btn-outline-primary btn-wrong me-1 mb-1">H- Aucune des propositions. On peut avoir les points maintenant ?</button> </div>
+                          </div>
+                          <button type="button" class="btn btn-dark btn-show">Voir la réponse</button>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    document.querySelectorAll(".btn-show").forEach(bouton => {
+      bouton.addEventListener("click", function(e){
+        e.target.parentNode.querySelectorAll(".btn-wrong").forEach(reponse => {
+          reponse.classList.remove("btn-outline-primary");
+          reponse.classList.add("btn-secondary");
+        })
+        e.target.parentNode.querySelectorAll(".btn-right").forEach(reponse => {
+          reponse.classList.remove("btn-outline-primary");
+          reponse.classList.add("btn-success");
+        })
+      })
+    })
+  });
+</script>

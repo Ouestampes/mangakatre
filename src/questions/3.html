@@ -1,0 +1,62 @@
+<?php $id_modal = basename(__FILE__, '.html'); ?>
+<div class="modal fade" id="question3" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered  modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Secret médical</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="text-center mb-1">
+                  <img src="cards/3.png" height="300"/>
+              </div>
+            </div>
+            <div class="col">
+              <div class="accordion" id="accordionPanel<?php echo $id_modal; ?>">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Facile
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" data-bs-parent="#accordionPanel<?php echo $id_modal; ?>"  class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      Quel film du studio Kyoto Animation traite en partie du harcèlement scolaire d'une jeune sourde ?
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Moyenne - Pire sécurité sociale du monde
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" data-bs-parent="#accordionPanel<?php echo $id_modal; ?>"  class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <p>Dans quel shonen hyper connu un des personnages principaux se bat pour payer l'opération des yeux de sa sœur ?  </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Difficile - Spoiler Uber
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" data-bs-parent="#accordionPanel<?php echo $id_modal; ?>"  class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      Quel est le secret médical révélé à la fin de Odd Taxi ? Pour ne pas spoiler, tu devras me le dire à l'écrit.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
